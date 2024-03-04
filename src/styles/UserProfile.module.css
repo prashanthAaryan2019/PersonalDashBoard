@@ -1,0 +1,36 @@
+.userProfile{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.centeredImage{
+   flex:1;
+   display:flex;
+   justify-content: center;
+}
+.userInfo{
+   flex:1
+}
+.goButton{
+   flex:1;
+   display:flex;
+   justify-content:center;
+
+}
+
+.profilePicture{
+    margin-right:20px;
+ }
+
+ .profilePicture img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    object-fit:cover;
+ }
+ .circularPic{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+ }

@@ -1,0 +1,31 @@
+
+.ToDoList{
+    display: flex;
+    flex-direction: column;
+}
+
+.taskItem{
+    display:flex;
+    align-items: center;
+    margin-bottom:8px
+}
+.checkBoxColumn{
+    margin-right:8px
+}
+.textColumn{
+    flex-grow:1
+}
+.buttonColumn{
+    margin-left:auto
+}
+
+ul{
+    list-style-type: none;
+}
+
+form{
+    margin-bottom: 20px;
+}
+.taskInput{
+    margin-right: 10px;
+}
